@@ -17,7 +17,7 @@ class Student:
 
     def write_file(self):
         fw = open('students.txt', 'a')
-        print(self.name + ' ' + self.age, file=fw)
+        print(' '.join((self.name , self.age)), file=fw)
         fw.close()
 
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
         addMore = input('Want to add more y/n : ')
         if addMore == 'y':
             student.name = input('Enter student name : ')
-            student.age = int(input('Enter student age : '))
+            student.age = input('Enter student age : ')
             student.write_file()
         else:
             break
