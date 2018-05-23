@@ -36,3 +36,9 @@ def modify(g): # f == g here
 
 modify(f)
 print (f) # f not modified
+
+#4 Sum of all primes in 1001
+#print(sum(x for x in range(1001) if is_prime(x)))
+
+a , b = range(1,23) , "ABCDE"
+print(a)
