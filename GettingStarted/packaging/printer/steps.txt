@@ -1,0 +1,32 @@
+'''
+/Users/prashsr2/projects/mygit/python/GettingStarted/packaging/printer
+PRASHSR2-M-20SX:printer prashsr2$ python3 -m venv printing_env
+PRASHSR2-M-20SX:printer prashsr2$ source printing_env/bin/activate
+(printing_env) PRASHSR2-M-20SX:printer prashsr2$ python3 setup.py install
+cd ..
+python
+>>> import printing
+>>>
+>>> printing.__file__
+'/Users/prashsr2/projects/mygit/python/GettingStarted/packaging/printer/printing_env/lib/python3.6/site-packages/printing.py'
+>>>
+
+
+--- So package is installed
+'''
+
+'''
+Also we can make zip and distribute
+
+python3 setup.py sdist --format zip
+
+output -
+creating dist
+creating 'dist/printer-1.0.zip' and adding 'printer-1.0' to it
+adding 'printer-1.0/PKG-INFO'
+adding 'printer-1.0/printing.py'
+adding 'printer-1.0/setup.py'
+removing 'printer-1.0' (and everything under it)
+
+
+'''

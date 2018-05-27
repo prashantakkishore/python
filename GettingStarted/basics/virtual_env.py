@@ -1,2 +1,2 @@
-python -m venv test_env
-source test_env/bin/activate
+#python -m venv test_env
+#source test_env/bin/activate

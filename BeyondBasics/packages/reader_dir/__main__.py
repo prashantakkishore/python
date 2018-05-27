@@ -1,0 +1,1 @@
+print('Running all programs in __main__.py of reader_dir')
