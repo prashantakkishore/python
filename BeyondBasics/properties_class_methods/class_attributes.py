@@ -1,0 +1,2 @@
+# class attrs
+# self attrs
